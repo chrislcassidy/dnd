@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<encounters>
+	<encounter>
+		<id>0</id>
+		<combatant>
+			<type>char</type>
+			<id>0</id>
+			<initiative>X</initiative>
+			<currentHp>X</currentHp>
+		</combatant>
+		<combatant>
+			<type>char</type>
+			<id>2</id>
+			<initiative>X</initiative>
+			<currentHp>X</currentHp>
+		</combatant>
+	</encounter>
+</encounters>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<characters>
+	<character>
+		<id>0</id>
+		<basic>
+			<type>PC</type>
+			<name>Mike Hunt</name>
+			<player>Robby</player>
+			<class>Wizard</class>
+			<level>3</level>
+			<background>?</background>
+			<alignment>Chaotic ?</alignment>
+		</basic>
+		<stats>
+			<str>10</str>
+			<dex>10</dex>
+			<con>10</con>
+			<int>10</int>
+			<wis>10</wis>
+			<cha>10</cha>
+		</stats>
+	</character>
+	<character>
+		<id>1</id>
+		<basic>
+			<type>NPC</type>
+			<name>Eledith "Sugartits" Hamhock</name>
+			<player>DM</player>
+			<class>Druid</class>
+			<level>3</level>
+			<background>Haunted One</background>
+			<alignment>Lawful Good</alignment>
+		</basic>
+		<stats>
+			<str>14</str>
+			<dex>15</dex>
+			<con>15</con>
+			<int>8</int>
+			<wis>15</wis>
+			<cha>8</cha>
+		</stats>
+	</character>
+	<character>
+		<id>2</id>
+		<basic>
+			<type>NPC</type>
+			<name>Gae-Al, The Bearkiller</name>
+			<player>DM</player>
+			<class>Barbarian</class>
+			<level>3</level>
+			<background>Gladiator</background>
+			<alignment>Chaotic Neutral</alignment>
+		</basic>
+		<stats>
+			<str>17</str>
+			<dex>15</dex>
+			<con>14</con>
+			<int>8</int>
+			<wis>12</wis>
+			<cha>8</cha>
+		</stats>
+	</character>
+</characters>

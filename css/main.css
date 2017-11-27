@@ -1,0 +1,119 @@
+body {
+    background: oldlace;
+    margin: 0;
+}
+
+.marginSpacer {
+	width: 10%;
+	display: inline-block;
+	background-color: burlywood;
+	line-height: 40px;
+	float: left;
+}
+
+#navBar {
+    display: flex;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    width: 80%;
+    float: left;
+    margin: 0 10%;
+}
+
+#navBar span {
+	font-size: medium;
+}
+
+.navBtn {
+    display: inline-block;
+    width: 20%;
+    background-color: burlywood;
+    border-collapse: collapse;
+    border-left: 1px solid goldenrod;
+    border-right: 1px solid goldenrod;
+    cursor: pointer;
+}
+
+#content {
+	margin: 0 10%;
+	width: 80%;
+	display: inline-block;
+}
+
+.characterList {
+	/*margin-top: 5px;*/
+}
+
+.character {
+    display: block;
+    border-bottom: 1px solid aliceblue;
+}
+
+.name {
+    cursor: pointer;
+    padding: 5px;
+    background: darkolivegreen;
+    line-height: 25px;
+    color: white;
+}
+
+.characterInner {
+	background-color: darkkhaki;
+}
+
+.basic {
+    margin: 10px 10px 0 0;
+    display: inline-block;
+    float: right;
+    width: 50%;
+    border: 1px solid;
+    vertical-align: top;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.stats, .bonuses {
+    margin: 5px 0 5px 5px;
+    display: inline-block;
+    width: 100px;
+    vertical-align: top;
+}
+
+.basicInner {
+	width: 33%;
+	display: inline-block;
+	font-size: x-small;
+	height: 50%;
+}
+
+.statsInner, .bonusesInner{
+    font-size: x-small;
+    padding: 5px;
+    border: 1px solid;
+    margin: 5px;
+    border-radius: 10px;
+    text-align: center;
+    height: 50px;
+    position: relative;
+}
+
+.basicInner div {
+	font-size: large;
+	display: block;
+    padding: 5% 0;
+}
+
+.statsInner div, .bonusesInner div {
+	font-size: large;
+	display: block;
+    padding: 10% 0;
+}
+
+.editBtn {
+    border-radius: 20px;
+    background-color: burlywood;
+    color: black;
+    padding: 0 10px;
+    float: right;
+}
