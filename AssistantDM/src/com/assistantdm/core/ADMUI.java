@@ -195,7 +195,8 @@ public class ADMUI extends javax.swing.JFrame {
                 Node node = nList.item(i);
                 if(node.getNodeType() == Node.ELEMENT_NODE) {
                     Element element = (Element)node;
-                    System.out.println(element.getElementsByTagName("name").item(0).getTextContent());
+                    Character character = new Character(element);    
+                    characters.add(character);
                 }
             }
         } catch (Exception e) {
@@ -217,7 +218,7 @@ public class ADMUI extends javax.swing.JFrame {
     private javax.swing.JTabbedPane jTabbedPane2;
     // End of variables declaration//GEN-END:variables
 
-    private List<Character> characters;
+    private static List<Character> characters;
     /*private List<Encounter> encounters;
     private List<Creature> creatures;
     private Encounter activeEncounter;*/
