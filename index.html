@@ -6,22 +6,68 @@
 		<script src="js/character.js"></script>
 		<script src="js/encounter.js"></script>
 		<script src="js/main.js"></script>
+		<script src="jqueryui/jquery-ui.min.js"></script>
 
-        <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="jqueryui/jquery-ui.min.css">
     </head>
     <body>
-    	<div style="font-size: 0">
-	    	<div id="navBar">
-	    		<div id="navChar" class="navBtn"><span>Characters</span></div>
-	    		<div id="navLocations" class="navBtn"><span>Places</span></div>
-	    		<div id="navMonsters" class="navBtn"><span>Creatures</span></div>
-	    		<div id="navEncounters" class="navBtn"><span>Encounter Tracker</span></div>
-	    		<div id="navNewChar" class="navBtn"><span>New Character</span></div>
-	    	</div>
-    	</div>
-		<div id="content">
-			
+    	<div class="tabs" style="height: -webkit-fill-available; width: 80%; margin: auto;">
+    		<ul>
+    			<li id="characters"><a href="#charactersTab">Characters</a></li>
+    			<li id="places"><a href="#placesTab">Places</a></li>
+    			<li id="creatures"><a href="#creaturesTab">Creatures</a></li>
+    			<li id="encounters"><a href="#encountersTab">Encounters</a></li>
+    			<li id="tracker"><a href="#trackerTab">Encounter Tracker</a></li>
+    			<li id="add"><a href="#addTab">Add New</a></li>
+  			</ul>
+  			<div id="charactersTab"></div>
+  			<div id="placesTab"></div>
+  			<div id="creaturesTab"></div>
+  			<div id="encountersTab"></div>
+  			<div id="trackerTab"></div>
+  			<div id="addTab">
+  				<fieldset style="width: 75%;margin: auto;">
+				    <legend>Entity Type</legend>
+				    <div class="controlgroup" style="width:100%;">
+				      <label for="entityType-character" style="width:27.2%;">Character</label>
+				      <input type="radio" name="entityType" id="entityType-character">
+				      <label for="entityType-encounter" style="width:27.2%;">Encounter</label>
+				      <input type="radio" name="entityType" id="entityType-encounter">
+				      <label for="entityType-place" style="width:27.2%;">Place</label>
+				      <input type="radio" name="entityType" id="entityType-place">
+				    </div>
+			    </fieldset>
+			    <fieldset class="characterFields" style="width: 100%;margin: auto;">
+				    <legend>Basic</legend>
+				    <div class="controlgroup" style="width:100%;">
+				    	<div class="customFieldset oneThird">
+					    	<label for="characterName" class="customLabel">Name</label>
+	      					<input type="text" name="characterName" class="customText">
+					    	
+					    	<label for="characterLevel" class="customLabel">Level</label>
+	      					<input type="number" name="characterClass" class="customText">
+      					
+							<label for="characterPlayer" class="customLabel">Player</label>
+	      					<input type="number" name="characterPlayer" class="customText">
+      					</div>
+      					<div class="customFieldset oneThird">
+					    	<label for="characterType" class="customLabel">Type</label>
+	      					<input type="text" name="characterType" class="customText">
+	      					
+	      					<label for="characterBackground" class="customLabel">Background</label>
+	      					<input type="text" name="characterBackground" class="customText">
+      					</div>
+      					<div class="customFieldset oneThird">
+					    	<label for="characterClass" class="customLabel">Class</label>
+	      					<input type="text" name="characterClass" class="customText">
+	      					
+	      					<label for="characterAlignment" class="customLabel">Alignment</label>
+	      					<input type="text" name="characterAlignment" class="customText">
+      					</div>
+				    </div>
+			    </fieldset>
+  			</div>
 		</div>
     </body>
 </html>

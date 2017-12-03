@@ -41,8 +41,9 @@ body {
 	display: inline-block;
 }
 
+/*
 .characterList {
-	/*margin-top: 5px;*/
+	margin-top: 5px;
 }
 
 .character {
@@ -60,7 +61,8 @@ body {
 
 .characterInner {
 	background-color: darkkhaki;
-}
+}*/
+
 
 .basic {
     margin: 10px 10px 0 0;
@@ -110,10 +112,30 @@ body {
     padding: 10% 0;
 }
 
+.customFieldset {
+	display: inline-block;
+}
+
+.customLabel {
+	
+}
+
+.customText {
+	
+}
+
+.oneThird {
+	width: calc(100%/3);
+}
+
+.oneSixth {
+	width: calc(100%/6);
+}
+/*
 .editBtn {
     border-radius: 20px;
     background-color: burlywood;
     color: black;
     padding: 0 10px;
     float: right;
-}
+}*/
